@@ -25,7 +25,7 @@ public class ClientController {
         clientServies.save(Client);
 
     }
-//комментарий
+//комментарий!
     @GetMapping()
     public List<Client> getAllClients() {
         return clientServies.getAll();
