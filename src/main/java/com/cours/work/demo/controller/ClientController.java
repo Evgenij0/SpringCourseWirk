@@ -18,7 +18,6 @@ import java.util.List;
 public class ClientController {
     @Autowired
     private ClientServies clientServies;
-//comment
     @PostMapping()
     public void save(@RequestBody Client Client) {
         log.info("Create new Client: {}");
