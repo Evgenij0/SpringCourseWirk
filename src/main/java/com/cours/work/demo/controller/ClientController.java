@@ -18,11 +18,11 @@ import java.util.List;
 public class ClientController {
     @Autowired
     private ClientServies clientServies;
+
     @PostMapping()
     public void save(@RequestBody Client Client) {
-        log.info("Create new Client: {}");
         clientServies.save(Client);
-
+        log.info("Create new Client: {}");
     }
 
     @GetMapping()
@@ -30,5 +30,5 @@ public class ClientController {
         return clientServies.getAll();
     }
 
-    
+
 }
