@@ -3,7 +3,6 @@ package com.cours.work.demo.service;
 import com.cours.work.demo.entity.Client;
 import com.cours.work.demo.repository.ClientRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +12,6 @@ import java.util.List;
 public class ClientServies {
 
     private final ClientRepository clientRepository;
-
 
     public void save(Client client) {
         clientRepository.save(client);
