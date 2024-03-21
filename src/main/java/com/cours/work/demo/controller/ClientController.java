@@ -25,7 +25,7 @@ public class ClientController {
         log.info("Create new Client: {}");
     }
 
-    @GetMapping()
+    @GetMapping("/All")
     public List<Client> getAllClients() {
         return clientServies.getAll();
     }

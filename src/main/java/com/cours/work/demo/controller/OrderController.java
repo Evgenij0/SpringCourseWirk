@@ -19,8 +19,8 @@ public class OrderController {
 
     @PostMapping()
     public void save(@RequestBody Order order) {
+        log.info("Create new Order: {}", order);
         orderServies.save(order);
-        log.info("Create new Order: {}");
     }
 
     @GetMapping()
