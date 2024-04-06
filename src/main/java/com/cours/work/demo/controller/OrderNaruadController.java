@@ -1,9 +1,7 @@
 package com.cours.work.demo.controller;
 
-import com.cours.work.demo.entity.Order;
 import com.cours.work.demo.entity.OrderNarad;
 import com.cours.work.demo.service.OrderNaryadServies;
-import com.cours.work.demo.service.OrderServies;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
