@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "workers")
+//=  таблица из ER - Закакз наряд - Антошкин
 public class OrderNarad {
 
     @Id

@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "client")
+//=  таблица из ER - клиент - Антошкин
 public class Client {
 
     @Id
