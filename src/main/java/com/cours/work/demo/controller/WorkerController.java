@@ -1,8 +1,6 @@
 package com.cours.work.demo.controller;
 
-import com.cours.work.demo.entity.Client;
 import com.cours.work.demo.entity.Workers;
-import com.cours.work.demo.service.ClientServies;
 import com.cours.work.demo.service.WorkerServies;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
