@@ -1,4 +1,4 @@
-package token;
+package com.cours.work.demo.token;
 import com.cours.work.demo.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
