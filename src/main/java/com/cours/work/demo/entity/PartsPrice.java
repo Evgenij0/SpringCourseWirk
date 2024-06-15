@@ -14,14 +14,14 @@ import lombok.NoArgsConstructor;
 public class PartsPrice {
 
     @Column(name = "id_part", nullable = false)
-    private String id_part;
+    private Long id_part;
 
     @Column(name = "supplier_price", nullable = false)
-    private String supplier_price;
+    private Float supplier_price;
 
     @Column(name = "selling_price", nullable = false)
-    private String selling_price;
+    private Float selling_price;
 
     @Column(name = "replacement_cost", nullable = false)
-    private String replacement_cost;
+    private Float replacement_cost;
 }

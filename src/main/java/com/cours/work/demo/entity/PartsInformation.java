@@ -26,7 +26,7 @@ public class PartsInformation {
     private String part_type;
 
     @Column(name = "supplier_code", nullable = false)
-    private String supplier_code;
+    private Long supplier_code;
 
     @Column(name = "part_condition", nullable = false)
     private String part_condition;
